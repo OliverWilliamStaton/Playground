@@ -22,6 +22,7 @@
 		073B7446198D758B009D1B0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073B7425198D758B009D1B0C /* UIKit.framework */; };
 		073B744E198D758B009D1B0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 073B744C198D758B009D1B0C /* InfoPlist.strings */; };
 		073B7450198D758B009D1B0C /* PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 073B744F198D758B009D1B0C /* PlaygroundTests.m */; };
+		07CB4B9D19B29196006B9122 /* OSPDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB4B9C19B29196006B9122 /* OSPDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		073B744B198D758B009D1B0C /* PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		073B744D198D758B009D1B0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		073B744F198D758B009D1B0C /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
+		07CB4B9B19B29196006B9122 /* OSPDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSPDog.h; path = ../OSPDog.h; sourceTree = "<group>"; };
+		07CB4B9C19B29196006B9122 /* OSPDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSPDog.m; path = ../OSPDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				073B7436198D758B009D1B0C /* Main_iPad.storyboard */,
 				073B7439198D758B009D1B0C /* OSPViewController.h */,
 				073B743A198D758B009D1B0C /* OSPViewController.m */,
+				07CB4B9B19B29196006B9122 /* OSPDog.h */,
+				07CB4B9C19B29196006B9122 /* OSPDog.m */,
 				073B743C198D758B009D1B0C /* Images.xcassets */,
 				073B7428198D758B009D1B0C /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				073B743B198D758B009D1B0C /* OSPViewController.m in Sources */,
 				073B742E198D758B009D1B0C /* main.m in Sources */,
 				073B7432198D758B009D1B0C /* OSPAppDelegate.m in Sources */,
+				07CB4B9D19B29196006B9122 /* OSPDog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				073B7455198D758B009D1B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		073B7456198D758B009D1B0C /* Build configuration list for PBXNativeTarget "PlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				073B7458198D758B009D1B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

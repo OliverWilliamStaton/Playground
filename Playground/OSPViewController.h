@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface OSPViewController : UIViewController
+{
+    IBOutlet UILabel *nameLabel;
+    IBOutlet UILabel *ageLabel;
+    IBOutlet UILabel *breedLabel;
+}
+
+@property (nonatomic, strong) NSMutableArray *myDogs;
+
+- (IBAction)NewDogBarButtonItemsPressed:(id)sender;
 
 @end
